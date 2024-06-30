@@ -27,6 +27,7 @@ The project has a structure consisting of a series of files and directories. We 
 ![image](https://github.com/StefanSchullerAndrei/PROIECT-FINAL-BDD/assets/170446681/f36013df-146b-4497-8b5a-966896e027e3)
 ![image](https://github.com/StefanSchullerAndrei/PROIECT-FINAL-BDD/assets/170446681/f50bb3b4-2a43-4eac-ad02-160edb92f05d)
 ![image](https://github.com/StefanSchullerAndrei/PROIECT-FINAL-BDD/assets/170446681/98356cb3-e737-47ee-94f1-c98a24509b89)
+![image](https://github.com/StefanSchullerAndrei/PROIECT-FINAL-BDD/assets/170446681/989c5430-7b7d-4f57-a401-2d2321563c30)
 ![image](https://github.com/StefanSchullerAndrei/PROIECT-FINAL-BDD/assets/170446681/895b4b26-af41-4ac3-8205-02b3f7d89359)
 ![image](https://github.com/StefanSchullerAndrei/PROIECT-FINAL-BDD/assets/170446681/38bb145e-78ac-4721-ba45-760efbd0914b)
 ![image](https://github.com/StefanSchullerAndrei/PROIECT-FINAL-BDD/assets/170446681/971f21dd-3f68-485b-9875-80d44bbaa6de)

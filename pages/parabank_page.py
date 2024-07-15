@@ -116,16 +116,31 @@ class ParabankRegister_Page(BasePage):
         self.is_displayed(self.USERNAME_EXISTS)
 
     def error_register_credentials(self):
-        # error_message = self.get_text(self.SSN_ERROR)
+        error_message = self.get_text(self.SSN_ERROR)
+
+        if self.is_displayed(self.SSN_ERROR):
+            print("Social Security Number is required")
 
         current_url = self.driver.current_url
         expected_url = 'https://parabank.parasoft.com/parabank/register.htm'
-        # if current_url == error_message:
-        #     print(f': {current_url}')
-
         if current_url == expected_url:
             print(f'The register process is not perfect. "Your account was created successfully. You are now logged in." was displayed on the next page: {current_url}')
+        # try:
+        #     ssn_error_element = WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.ID, "customer.ssn.errors")))
 
+    #         if ssn_error_element.is_displayed():
+    #             print("Social Security Number is required")
+    #         else:
+    #             current_url = self.driver.current_url
+    #             expected_url = 'https://parabank.parasoft.com/parabank/register.htm'
+    #             if current_url == expected_url:
+    #                 print(f'The register process is not perfect. "Your account was created successfully. You are now logged in." was displayed on the next page: {current_url}')
+    #
+    #     except NoSuchElementException:
+    # Dacă elementul nu există, tratează eroarea aici
+    #         print("The element 'customer.ssn.errors' was not found on the page.")
+
+        
     def click_logout_button(self):
         wait = WebDriverWait(self.driver, 10)  # Așteaptă până la 10 secunde
         logout_button = wait.until(EC.element_to_be_clickable(self.LOG_OUT_BUTTON))
